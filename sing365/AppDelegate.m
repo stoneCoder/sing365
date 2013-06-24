@@ -6,9 +6,11 @@
 //  Copyright (c) 2013年 Stone_Zl. All rights reserved.
 //
 
-#import "LocalViewControllerAppDelegate.h"
+#import "AppDelegate.h"
+#import "CustomBarViewController.h"
 
-@implementation LocalViewControllerAppDelegate
+
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -16,6 +18,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    CustomBarViewController *customBarViewController = [[CustomBarViewController alloc] init];
+    
+    self.window.rootViewController = customBarViewController;
     return YES;
 }
 

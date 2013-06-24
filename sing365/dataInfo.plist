@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>downInfo</key>
+    <array>
+        <string>下载歌曲</string>
+    </array>
+    <key>localInfo</key>
+    <array>
+        <string>全部歌曲</string>
+        <string>歌手</string>
+        <string>专辑</string>
+    </array>
+</dict>
+</plist>
